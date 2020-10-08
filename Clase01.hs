@@ -9,7 +9,7 @@ normaVectorial x1 x2 = sqrt (x1^2 + x2^2)
 funcionConstante8 x = 8
 
 f n | n == 0 = 1
-    | otherwise = 0
+    | n /= 0 = 0
 
 signo n | n > 0 = 1
         | n == 0 = 0
@@ -34,8 +34,7 @@ f4 n | n >= 3 = 5
 f5 n | n <= 9 = 7
      | n >= 3 = 5
 
-f n | n == 0 = 1
-    | n /= 0 = 0
+
 
 
 
